@@ -1,0 +1,1 @@
+gmap采用ditu.google.cn把gmap.module 334行:  drupal_set_html_head('<script src="'. check_url(url('http://maps.google.com/maps', array('query' => $query))) .'" type="text/javascript"></script>');改为：  drupal_set_html_head('<script src="'. check_url(url('http://ditu.google.cn/maps', array('query' => $query))) .'" type="text/javascript"></script>');这个是douban的做法！
